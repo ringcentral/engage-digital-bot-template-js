@@ -7,11 +7,7 @@ const _ = require('lodash')
 
 exports.name = 'Hello bot'
 
-exports.description = 'Bot only respond to email "Hello" with "Hi"'
-
-function isEmailEvent (event) {
-  return _.get(event, 'resource.type') === 'emails/email'
-}
+exports.description = 'Bot auto respond to every message.'
 
 function reply (event, client) {
   let url = '/1.0/contents'
@@ -21,12 +17,14 @@ function reply (event, client) {
   let cc = _.get(event, 'resource.metadata.cc')
   let body = 'This is a auto reply by bot'
   let rid = _.get(event, 'resource.id')
+  let priv = _.get(event, 'resource.metadata.private')
   return client.post(url, {
     title,
     to,
     bcc,
     cc,
     body,
+    private: priv ? 1 : undefined,
     in_reply_to_id: rid
   }).catch(e => {
     console.log(e)
@@ -42,7 +40,5 @@ exports.onEvent = async ({
     return
   }
   console.log(event)
-  if (isEmailEvent(event)) {
-    await reply(event, client)
-  }
+  await reply(event, client)
 }
