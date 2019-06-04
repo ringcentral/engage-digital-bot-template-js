@@ -2,6 +2,10 @@
 
 Template for [RingCentral Engage chatbot js](https://github.com/zxdong262/ringcentral-engage-chatbot-js).
 
+## Youtube video
+
+[https://youtu.be/jFn7TAogss0](https://youtu.be/jFn7TAogss0)
+
 ## Quick start
 
 Let's start a simple chatbot server.
