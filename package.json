@@ -31,7 +31,7 @@
     "yarn-upgrade-all": "^0.5.0"
   },
   "dependencies": {
-    "ringcentral-engage-chatbot": "^0.2.0"
+    "ringcentral-engage-chatbot": "^0.3.0"
   },
   "standard": {
     "parser": "babel-eslint",
