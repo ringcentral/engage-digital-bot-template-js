@@ -55,6 +55,10 @@ npm run build
 npx ringcentral-engage-chatbot dist/server/index.js
 ```
 
+## Build and deploy to AWS Lambda
+
+[https://github.com/zxdong262/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md](https://github.com/zxdong262/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md)
+
 ## License
 
 MIT

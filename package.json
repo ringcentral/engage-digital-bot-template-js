@@ -9,7 +9,11 @@
     "compile": "babel src/server --out-dir dist/server",
     "build": "npm run clean && npm run compile",
     "clean": "node build/clean.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "build-lambda": "node cmds/build",
+    "deploy-lambda": "node cmds/deploy",
+    "deploy": "npm run build-lambda && npm run deploy-lambda",
+    "watch": "cd deploy && ../node_modules/.bin/sls logs -f app -t"
   },
   "keywords": [
     "RingCentral",
@@ -28,10 +32,12 @@
     "ngrok": "^3.1.0",
     "shelljs": "^0.8.3",
     "standard": "^12.0.1",
+    "serverless": "^1.35.1",
     "yarn-upgrade-all": "^0.5.0"
   },
   "dependencies": {
-    "ringcentral-engage-chatbot": "^0.3.2"
+    "ringcentral-engage-chatbot": "^0.3.2",
+    "serverless-http": "^2.0.2"
   },
   "standard": {
     "parser": "babel-eslint",
