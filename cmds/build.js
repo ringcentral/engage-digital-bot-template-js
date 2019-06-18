@@ -2,7 +2,6 @@ const { exec, rm, echo } = require('shelljs')
 const { resolve } = require('path')
 
 const dist = resolve(__dirname, '../deploy')
-const f = resolve(__dirname, '../example-lambda')
 echo('building...')
 rm('-rf', `${dist}/*.js`)
 rm('-rf', `${dist}/*.json`)

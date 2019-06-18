@@ -9,11 +9,11 @@
     "compile": "babel src/server --out-dir dist/server",
     "build": "npm run clean && npm run compile",
     "clean": "node build/clean.js",
-    "prepublishOnly": "npm run build",
     "build-lambda": "node cmds/build",
     "deploy-lambda": "node cmds/deploy",
     "deploy": "npm run build-lambda && npm run deploy-lambda",
-    "watch": "cd deploy && ../node_modules/.bin/sls logs -f app -t"
+    "watch": "cd deploy && ../node_modules/.bin/sls logs -f app -t",
+    "lint": "./node_modules/.bin/standard"
   },
   "keywords": [
     "RingCentral",
@@ -42,7 +42,8 @@
   "standard": {
     "parser": "babel-eslint",
     "ignore": [
-      "/dist/"
+      "/dist/",
+      "/temp/"
     ]
   }
 }
