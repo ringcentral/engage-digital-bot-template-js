@@ -36,7 +36,7 @@
     "yarn-upgrade-all": "^0.5.0"
   },
   "dependencies": {
-    "ringcentral-engage-chatbot": "^0.3.2",
+    "ringcentral-engage-chatbot": "^0.3.3",
     "serverless-http": "^2.0.2"
   },
   "standard": {
