@@ -1,6 +1,6 @@
 # ringcentral-engage-bot-template-js
 
-Template/exmaple bot use demo for [RingCentral Engage chatbot js](https://github.com/zxdong262/ringcentral-engage-chatbot-js).
+Template/exmaple bot use demo for [RingCentral Engage chatbot js](https://github.com/ringcentral/ringcentral-engage-chatbot-js).
 
 ## Youtube video
 
@@ -12,7 +12,7 @@ Let's start a simple chatbot server.
 
 ```bash
 # get the code
-git clone git@github.com:zxdong262/ringcentral-engage-bot-template-js.git
+git clone git@github.com:ringcentral/ringcentral-engage-bot-template-js.git
 cd ringcentral-engage-bot-template-js
 
 # install dependecies
@@ -26,7 +26,7 @@ Forwarding                    https://xxxx.ap.ngrok.io -> localhost:4100
 # Remember the https://xxxx.ap.ngrok.io, we will use it later
 ```
 
-Follow [steps to prepare email source and webhook for chatbot](https://github.com/zxdong262/ringcentral-engage-chatbot-js/blob/master/docs/prepare-email-source-and-webhook.md) to prepare the email source and webhook.
+Follow [steps to prepare email source and webhook for chatbot](https://github.com/ringcentral/ringcentral-engage-chatbot-js/blob/master/docs/prepare-email-source-and-webhook.md) to prepare the email source and webhook.
 
 ```bash
 # create env file
@@ -57,7 +57,7 @@ npx ringcentral-engage-chatbot dist/server/index.js
 
 ## Build and deploy to AWS Lambda
 
-[https://github.com/zxdong262/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md](https://github.com/zxdong262/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md)
+[https://github.com/ringcentral/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md](https://github.com/ringcentral/ringcentral-engage-chatbot-js/blob/master/docs/deploy-to-lambda.md)
 
 ## License
 
