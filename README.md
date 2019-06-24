@@ -4,7 +4,7 @@ Template/exmaple bot use demo for [RingCentral Engage Digital chatbot js](https:
 
 ## Youtube video
 
-[https://youtu.be/jFn7TAogss0](https://youtu.be/jFn7TAogss0)
+[https://youtu.be/HDDGUFIzNxQ](https://youtu.be/HDDGUFIzNxQ)
 
 ## Quick start
 
