@@ -1,5 +1,5 @@
 {
-  "name": "ringcentral-engage-bot-template-js",
+  "name": "engage-digital-bot-template-js",
   "version": "0.1.1",
   "description": "Template",
   "main": "dist/server/index.js",

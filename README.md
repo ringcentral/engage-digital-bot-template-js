@@ -1,4 +1,4 @@
-# ringcentral-engage-bot-template-js
+# engage-digital-bot-template-js
 
 Template/exmaple bot use demo for [RingCentral Engage chatbot js](https://github.com/ringcentral/ringcentral-engage-chatbot-js).
 
@@ -12,8 +12,8 @@ Let's start a simple chatbot server.
 
 ```bash
 # get the code
-git clone git@github.com:ringcentral/ringcentral-engage-bot-template-js.git
-cd ringcentral-engage-bot-template-js
+git clone git@github.com:ringcentral/engage-digital-bot-template-js.git
+cd engage-digital-bot-template-js
 
 # install dependecies
 npm i
