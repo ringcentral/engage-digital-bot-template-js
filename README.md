@@ -1,8 +1,10 @@
-# engage-digital-bot-template-js
+# Engage Digital Chatbot Template for JavaScript
 
 Template/exmaple bot use demo for [RingCentral Engage Digital chatbot js](https://github.com/ringcentral/engage-digital-chatbot-js).
 
-## Youtube video
+## YouTube video
+
+See the following video for a quick overview of building a chatbot with this template.
 
 [https://youtu.be/HDDGUFIzNxQ](https://youtu.be/HDDGUFIzNxQ)
 
